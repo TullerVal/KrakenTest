@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39843B041CA5B1B300E38142 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39843B031CA5B1B300E38142 /* main.m */; };
+		39843B071CA5B1B300E38142 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39843B061CA5B1B300E38142 /* AppDelegate.m */; };
+		39843B0F1CA5B1B300E38142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39843B0E1CA5B1B300E38142 /* Assets.xcassets */; };
+		39843B121CA5B1B300E38142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39843B101CA5B1B300E38142 /* LaunchScreen.storyboard */; };
+		39843B1D1CA5B52900E38142 /* NickViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39843B1B1CA5B52900E38142 /* NickViewController.m */; };
+		39843B1E1CA5B52900E38142 /* NickViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39843B1C1CA5B52900E38142 /* NickViewController.xib */; };
+		39843B221CA5B97400E38142 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 39843B211CA5B97400E38142 /* SRWebSocket.m */; };
+		39843B241CA5B9D600E38142 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39843B231CA5B9D600E38142 /* CFNetwork.framework */; };
+		39843B261CA5B9E000E38142 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39843B251CA5B9E000E38142 /* Foundation.framework */; };
+		39843B281CA5B9ED00E38142 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39843B271CA5B9ED00E38142 /* Security.framework */; };
+		39843B2B1CA5BAA800E38142 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 39843B2A1CA5BAA800E38142 /* libicucore.tbd */; };
+		39843B301CA5BAFD00E38142 /* MessagesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39843B2E1CA5BAFD00E38142 /* MessagesTableViewController.m */; };
+		39843B311CA5BAFD00E38142 /* MessagesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39843B2F1CA5BAFD00E38142 /* MessagesTableViewController.xib */; };
+		39843B341CA5BF7D00E38142 /* WSDSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 39843B331CA5BF7D00E38142 /* WSDSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39843AFF1CA5B1B300E38142 /* KrakenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrakenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39843B031CA5B1B300E38142 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39843B051CA5B1B300E38142 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39843B061CA5B1B300E38142 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39843B0E1CA5B1B300E38142 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39843B111CA5B1B300E38142 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39843B131CA5B1B300E38142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39843B1A1CA5B52900E38142 /* NickViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NickViewController.h; path = NickViewController/NickViewController.h; sourceTree = "<group>"; };
+		39843B1B1CA5B52900E38142 /* NickViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NickViewController.m; path = NickViewController/NickViewController.m; sourceTree = "<group>"; };
+		39843B1C1CA5B52900E38142 /* NickViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NickViewController.xib; path = NickViewController/NickViewController.xib; sourceTree = "<group>"; };
+		39843B201CA5B97400E38142 /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		39843B211CA5B97400E38142 /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		39843B231CA5B9D600E38142 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		39843B251CA5B9E000E38142 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39843B271CA5B9ED00E38142 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		39843B2A1CA5BAA800E38142 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		39843B2D1CA5BAFD00E38142 /* MessagesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MessagesTableViewController.h; path = MessagesTableViewController/MessagesTableViewController.h; sourceTree = "<group>"; };
+		39843B2E1CA5BAFD00E38142 /* MessagesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MessagesTableViewController.m; path = MessagesTableViewController/MessagesTableViewController.m; sourceTree = "<group>"; };
+		39843B2F1CA5BAFD00E38142 /* MessagesTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessagesTableViewController.xib; path = MessagesTableViewController/MessagesTableViewController.xib; sourceTree = "<group>"; };
+		39843B321CA5BF7D00E38142 /* WSDSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSDSocket.h; sourceTree = "<group>"; };
+		39843B331CA5BF7D00E38142 /* WSDSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSDSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39843AFC1CA5B1B300E38142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39843B2B1CA5BAA800E38142 /* libicucore.tbd in Frameworks */,
+				39843B281CA5B9ED00E38142 /* Security.framework in Frameworks */,
+				39843B261CA5B9E000E38142 /* Foundation.framework in Frameworks */,
+				39843B241CA5B9D600E38142 /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39843AF61CA5B1B300E38142 = {
+			isa = PBXGroup;
+			children = (
+				39843B291CA5B9F600E38142 /* Frameworrds */,
+				39843B011CA5B1B300E38142 /* KrakenTest */,
+				39843B001CA5B1B300E38142 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39843B001CA5B1B300E38142 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39843AFF1CA5B1B300E38142 /* KrakenTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39843B011CA5B1B300E38142 /* KrakenTest */ = {
+			isa = PBXGroup;
+			children = (
+				39843B1F1CA5B97400E38142 /* SocketRocket */,
+				39843B051CA5B1B300E38142 /* AppDelegate.h */,
+				39843B061CA5B1B300E38142 /* AppDelegate.m */,
+				39843B191CA5B50200E38142 /* NickViewController */,
+				39843B2C1CA5BAD500E38142 /* MessagesTableViewController */,
+				39843B021CA5B1B300E38142 /* Supporting Files */,
+			);
+			path = KrakenTest;
+			sourceTree = "<group>";
+		};
+		39843B021CA5B1B300E38142 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39843B0E1CA5B1B300E38142 /* Assets.xcassets */,
+				39843B101CA5B1B300E38142 /* LaunchScreen.storyboard */,
+				39843B131CA5B1B300E38142 /* Info.plist */,
+				39843B031CA5B1B300E38142 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39843B191CA5B50200E38142 /* NickViewController */ = {
+			isa = PBXGroup;
+			children = (
+				39843B1C1CA5B52900E38142 /* NickViewController.xib */,
+				39843B1A1CA5B52900E38142 /* NickViewController.h */,
+				39843B1B1CA5B52900E38142 /* NickViewController.m */,
+			);
+			name = NickViewController;
+			sourceTree = "<group>";
+		};
+		39843B1F1CA5B97400E38142 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				39843B321CA5BF7D00E38142 /* WSDSocket.h */,
+				39843B331CA5BF7D00E38142 /* WSDSocket.m */,
+				39843B201CA5B97400E38142 /* SRWebSocket.h */,
+				39843B211CA5B97400E38142 /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		39843B291CA5B9F600E38142 /* Frameworrds */ = {
+			isa = PBXGroup;
+			children = (
+				39843B2A1CA5BAA800E38142 /* libicucore.tbd */,
+				39843B271CA5B9ED00E38142 /* Security.framework */,
+				39843B251CA5B9E000E38142 /* Foundation.framework */,
+				39843B231CA5B9D600E38142 /* CFNetwork.framework */,
+			);
+			name = Frameworrds;
+			sourceTree = "<group>";
+		};
+		39843B2C1CA5BAD500E38142 /* MessagesTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				39843B2F1CA5BAFD00E38142 /* MessagesTableViewController.xib */,
+				39843B2D1CA5BAFD00E38142 /* MessagesTableViewController.h */,
+				39843B2E1CA5BAFD00E38142 /* MessagesTableViewController.m */,
+			);
+			name = MessagesTableViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39843AFE1CA5B1B300E38142 /* KrakenTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39843B161CA5B1B300E38142 /* Build configuration list for PBXNativeTarget "KrakenTest" */;
+			buildPhases = (
+				39843AFB1CA5B1B300E38142 /* Sources */,
+				39843AFC1CA5B1B300E38142 /* Frameworks */,
+				39843AFD1CA5B1B300E38142 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KrakenTest;
+			productName = KrakenTest;
+			productReference = 39843AFF1CA5B1B300E38142 /* KrakenTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39843AF71CA5B1B300E38142 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Valentin Tuller";
+				TargetAttributes = {
+					39843AFE1CA5B1B300E38142 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 39843AFA1CA5B1B300E38142 /* Build configuration list for PBXProject "KrakenTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39843AF61CA5B1B300E38142;
+			productRefGroup = 39843B001CA5B1B300E38142 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39843AFE1CA5B1B300E38142 /* KrakenTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39843AFD1CA5B1B300E38142 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39843B1E1CA5B52900E38142 /* NickViewController.xib in Resources */,
+				39843B121CA5B1B300E38142 /* LaunchScreen.storyboard in Resources */,
+				39843B0F1CA5B1B300E38142 /* Assets.xcassets in Resources */,
+				39843B311CA5BAFD00E38142 /* MessagesTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39843AFB1CA5B1B300E38142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39843B301CA5BAFD00E38142 /* MessagesTableViewController.m in Sources */,
+				39843B341CA5BF7D00E38142 /* WSDSocket.m in Sources */,
+				39843B221CA5B97400E38142 /* SRWebSocket.m in Sources */,
+				39843B1D1CA5B52900E38142 /* NickViewController.m in Sources */,
+				39843B071CA5B1B300E38142 /* AppDelegate.m in Sources */,
+				39843B041CA5B1B300E38142 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39843B101CA5B1B300E38142 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39843B111CA5B1B300E38142 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39843B141CA5B1B300E38142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39843B151CA5B1B300E38142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39843B171CA5B1B300E38142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KrakenTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.KrakenTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39843B181CA5B1B300E38142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KrakenTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Home.KrakenTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39843AFA1CA5B1B300E38142 /* Build configuration list for PBXProject "KrakenTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39843B141CA5B1B300E38142 /* Debug */,
+				39843B151CA5B1B300E38142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39843B161CA5B1B300E38142 /* Build configuration list for PBXNativeTarget "KrakenTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39843B171CA5B1B300E38142 /* Debug */,
+				39843B181CA5B1B300E38142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39843AF71CA5B1B300E38142 /* Project object */;
+}
